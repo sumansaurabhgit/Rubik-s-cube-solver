@@ -33,7 +33,7 @@ public:
     T rubiksCube;
 
     DFSSolver(T _rubiksCube, int _max_search_depth = 8) {
-        rubiksCube = _rubiksCube;
+        rubiksCube = _rubiksCube;//coping it
         max_search_depth = _max_search_depth;
     }
 
@@ -46,3 +46,4 @@ public:
 
 
 #endif //RUBIKS_CUBE_SOLVER_DFSSOLVER_H
+
