@@ -5,7 +5,7 @@
 template<typename T>
 class PatternDatabaseEstimate {
 private:
-
+//this is the main model
 public:
     int getEstimate(T rubiksCube) {
         return 0;
@@ -14,3 +14,4 @@ public:
 };
 
 #endif //RUBIKS_CUBE_SOLVER_PATTERNDATABASE_H
+
